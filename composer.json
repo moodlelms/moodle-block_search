@@ -1,0 +1,14 @@
+{
+  "name": "antriver/block_search",
+  "type": "moodle-block",
+  "require": {
+    "moodle/core": "~2.7",
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "search",
+    "branch-alias": {
+      "dev-MOODLE_27_STABLE": "2.7.x-dev"
+    }
+  }
+}
